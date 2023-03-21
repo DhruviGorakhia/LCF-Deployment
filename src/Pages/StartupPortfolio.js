@@ -1,48 +1,48 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell, { tableCellClasses } from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
-import Paper from "@mui/material/Paper";
+// import { styled } from "@mui/material/styles";
+// import Table from "@mui/material/Table";
+// import TableBody from "@mui/material/TableBody";
+// import TableCell, { tableCellClasses } from "@mui/material/TableCell";
+// import TableContainer from "@mui/material/TableContainer";
+// import TableHead from "@mui/material/TableHead";
+// import TableRow from "@mui/material/TableRow";
+// import Paper from "@mui/material/Paper";
 import './Css/Portfolio.css';
-import { width } from "@mui/system";
+// import { width } from "@mui/system";
 import { Navs } from "../components/Investor/Navs";
 
 
-const StyledTableCell = styled(TableCell)(({ theme }) => ({
-    [`&.${tableCellClasses.head}`]: {
-        backgroundColor: theme.palette.common.black,
-        color: theme.palette.common.white,
-    },
-    [`&.${tableCellClasses.body}`]: {
-        fontSize: 14,
-    },
-}));
+// const StyledTableCell = styled(TableCell)(({ theme }) => ({
+//     [`&.${tableCellClasses.head}`]: {
+//         backgroundColor: theme.palette.common.black,
+//         color: theme.palette.common.white,
+//     },
+//     [`&.${tableCellClasses.body}`]: {
+//         fontSize: 14,
+//     },
+// }));
 
-const StyledTableRow = styled(TableRow)(({ theme }) => ({
-    "&:nth-of-type(odd)": {
-        backgroundColor: theme.palette.action.hover,
-    },
-    // hide last border
-    "&:last-child td, &:last-child th": {
-        border: 0,
-    },
-}));
+// const StyledTableRow = styled(TableRow)(({ theme }) => ({
+//     "&:nth-of-type(odd)": {
+//         backgroundColor: theme.palette.action.hover,
+//     },
+//     // hide last border
+//     "&:last-child td, &:last-child th": {
+//         border: 0,
+//     },
+// }));
 
-function createData(name, calories, fat, carbs) {
-    return { name, calories, fat, carbs };
-}
+// function createData(name, calories, fat, carbs) {
+//     return { name, calories, fat, carbs };
+// }
 
-const rows = [
-    createData("Anmol", "Elctric vehicles", "25th Jan", "1000"),
-    createData("Dhruvi", "Green Energy", "26th Jan", "1500"),
-    createData("Piyush", "Healthtech", "27th Jan", "1799"),
-    createData("Kunal", "Edtech", "28th Jan", "1890"),
-    createData("Margi", "Fintech", "29th Jan", "2000"),
-];
+// const rows = [
+//     createData("Anmol", "Elctric vehicles", "25th Jan", "1000"),
+//     createData("Dhruvi", "Green Energy", "26th Jan", "1500"),
+//     createData("Piyush", "Healthtech", "27th Jan", "1799"),
+//     createData("Kunal", "Edtech", "28th Jan", "1890"),
+//     createData("Margi", "Fintech", "29th Jan", "2000"),
+// ];
 
 export default function SatrtupPortfolio() {
     return (
@@ -70,7 +70,7 @@ export default function SatrtupPortfolio() {
                 </div>
 
             </div>
-
+{/* 
             <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 100 }} aria-label="customized table">
                     <TableHead>
@@ -94,7 +94,7 @@ export default function SatrtupPortfolio() {
                         ))}
                     </TableBody>
                 </Table>
-            </TableContainer>
+            </TableContainer> */}
         </>
     );
 }
